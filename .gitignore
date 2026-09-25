@@ -8,3 +8,4 @@ backend/*.log
 backend/dist/
 backend/build/
 
+.env
