@@ -1,0 +1,10 @@
+# Backend specific ignores
+backend/node_modules/
+backend/.env
+backend/.env.local
+
+# Logs and builds inside backend
+backend/*.log
+backend/dist/
+backend/build/
+
