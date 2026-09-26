@@ -1,45 +1,6 @@
-// const express = require("express");
-import express from "express";
-import dotenv from "dotenv";
-import { db } from "./config/db.js";
+import { db } from "../config/db.js";
 
-dotenv.config();
-
-const app = express();
-
-// Middleware
-app.use(express.json());
-
-const PORT = process.env.PORT || 3001;
-
-//Our custom simple middleware
-// app.use((req, res, next) => {
-//   console.log(`Incoming request: ${req.method} ${req.url}`);
-//   next();
-// });
-
-async function initDB() {
-  try {
-    await db`CREATE TABLE IF NOT EXISTS expenses (
-      id SERIAL PRIMARY KEY,
-      user_id VARCHAR(255) NOT NULL,
-      title VARCHAR(255) NOT NULL,
-      amount DECIMAL(10, 2) NOT NULL,
-      category VARCHAR(255) NOT NULL,
-      created_at DATE NOT NULL DEFAULT CURRENT_DATE
-    )`;
-    console.log("Connected to the database");
-  } catch (error) {
-    console.error("Error connecting to the database:", error);
-    process.exit(1); // status code 1 indicates failure 0 success
-  }
-}
-
-app.get("/", (req, res) => {
-  res.send("Hello from the backend!");
-});
-
-app.get("/api/expenses/:userId", async (req, res) => {
+export async function getTransactionsByUserId(req, res) {
   try {
     const { userId } = req.params;
     // console.log(userId);
@@ -50,12 +11,11 @@ app.get("/api/expenses/:userId", async (req, res) => {
     console.error("Error fetching expenses:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
-});
+}
 
-app.post("/api/expenses", async (req, res) => {
-  const { user_id, title, amount, category } = req.body;
+export async function createTransaction(req, res) {
   try {
-    const { title, amount, category } = req.body;
+    const { title, amount, category, user_id } = req.body;
 
     if (!user_id || !title || !category || amount === undefined) {
       return res.status(400).json({ emessage: "All fileds are required" });
@@ -70,9 +30,9 @@ app.post("/api/expenses", async (req, res) => {
     console.error("Error creating the expense", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
-});
+}
 
-app.delete("/api/expenses/:id", async (req, res) => {
+export async function deleteTransaction(req, res) {
   try {
     const { id } = req.params;
 
@@ -92,9 +52,9 @@ app.delete("/api/expenses/:id", async (req, res) => {
     console.error("Error deleting the expense", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
-});
+}
 
-app.get("/api/expenses/summary/:userId", async (req, res) => {
+export async function getSummaryByUserId(req, res) {
   try {
     const { userId } = req.params;
     const balanceResult =
@@ -117,14 +77,4 @@ app.get("/api/expenses/summary/:userId", async (req, res) => {
     console.error("Error fetching expenses by category:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
-});
-
-// Start the server after initializing the database
-
-// console.log("my port:", process.env.PORT);
-
-initDB().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-  });
-});
+}

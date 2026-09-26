@@ -1,3 +1,6 @@
+node_modules/
+.env
+
 # Backend specific ignores
 backend/node_modules/
 backend/.env
@@ -8,4 +11,8 @@ backend/*.log
 backend/dist/
 backend/build/
 
-.env
+mobile/node_modules/
+mobile/.env
+
+
+
