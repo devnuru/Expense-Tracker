@@ -22,6 +22,10 @@ const PORT = process.env.PORT || 3001;
 //   next();
 // });
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Expense Tracker API");
+});
+
 app.use("/api/expenses", transactionsRoute);
 
 // Start the server after initializing the database
