@@ -6,9 +6,13 @@ import rateLimiterMiddleware from "./middleware/rateLimiter.js";
 
 import transactionsRoute from "./routes/transactionsRoute.js";
 
+import job from "./config/cron.js";
+
 dotenv.config();
 
 const app = express();
+
+if (process.env.NODE_ENV === "production") job.start(); // Start the cron job
 
 // Middleware
 app.use(rateLimiterMiddleware); // Apply the rate limiter middleware to all routes
@@ -24,6 +28,10 @@ const PORT = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Expense Tracker API");
+});
+
+app.get("/api/health", (req, res) => {
+  res.status(200).json({ status: "OK", message: "API is Working" });
 });
 
 app.use("/api/expenses", transactionsRoute);

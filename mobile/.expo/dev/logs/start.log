@@ -1512,3 +1512,198 @@
 {"_e":"metro:client_log","_t":1790540675683,"level":"log","data":["userId","user_3JvOzCnPcBNj5Cgn521rpZXyPkE"]}
 {"_e":"metro:client_log","_t":1790540675684,"level":"log","data":["transactions","[{\"amount\": \"40000.00\", \"category\": \"income\", \"created_at\": \"2026-09-25T18:00:00.000Z\", \"id\": 3, \"title\": \"Second Salary\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}, {\"amount\": \"50000.00\", \"category\": \"income\", \"created_at\": \"2026-09-25T18:00:00.000Z\", \"id\": 1, \"title\": \"Salary\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}, {\"amount\": \"-13000.00\", \"category\": \"expense\", \"created_at\": \"2026-09-25T18:00:00.000Z\", \"id\": 2, \"title\": \"Rent\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}]"]}
 {"_e":"metro:client_log","_t":1790540675684,"level":"log","data":["summary","{\"balance\": \"77000.00\", \"expenses\": \"-13000.00\", \"income\": \"90000.00\"}"]}
+{"_e":"root:init","_t":1790544503585,"format":"v0-jsonl","version":"57.0.27"}
+{"_e":"env:mode","_t":1790544503586,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1790544503587,"mode":"development","files":["../../../.env"],"env":{"EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY":"pk_test_YW1hemluZy1za3Vuay0zNjU3LmNsZXJrLmFjY291bnRzLmRldiQ"}}
+{"_e":"devserver:start","_t":1790544503855,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../src/app","serverComponents":false,"serverActions":false,"serverRendering":true,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1790544504074,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":true,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1790544504221,"plugins":[]}
+{"_e":"metro:instantiate","_t":1790544504793,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1790544513237,"id":"2","platform":"android","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:progress","_t":1790544513237,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790544513239,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790544513375,"id":"2","progress":0.18011806176079478,"total":377,"current":160}
+{"_e":"metro:bundling:progress","_t":1790544513474,"id":"2","progress":0.35021237368433333,"total":828,"current":490}
+{"_e":"metro:bundling:progress","_t":1790544513574,"id":"2","progress":0.513732381664047,"total":985,"current":706}
+{"_e":"metro:bundling:progress","_t":1790544513674,"id":"2","progress":0.7183067832567643,"total":1174,"current":995}
+{"_e":"metro:bundling:progress","_t":1790544513774,"id":"2","progress":0.8101207288443382,"total":1491,"current":1342}
+{"_e":"metro:bundling:progress","_t":1790544513874,"id":"2","progress":0.8739698077077009,"total":1612,"current":1507}
+{"_e":"metro:bundling:progress","_t":1790544513977,"id":"2","progress":0.9988848620883904,"total":1793,"current":1792}
+{"_e":"metro:bundling:done","_t":1790544514064,"id":"2","total":1793,"ms":826.676917}
+{"_e":"metro:client_log","_t":1790544516398,"level":"warn","data":["Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview"]}
+{"_e":"metro:bundling:started","_t":1790544689676,"id":"9","platform":"android","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:progress","_t":1790544689676,"id":"9","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1790544689737,"id":"9","total":1,"ms":60.994417}
+{"_e":"metro:client_log","_t":1790544695831,"level":"warn","data":["Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview"]}
+{"_e":"metro:client_log","_t":1790545195855,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790545195860,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790545195861,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:client_log","_t":1790545195886,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790545195887,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790545195887,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:client_log","_t":1790545198248,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790545198249,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790545198249,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:client_log","_t":1790545198632,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790545198633,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790545198633,"level":"log","data":["summary","{\"balance\": \"0\", \"expenses\": \"0\", \"income\": \"0\"}"]}
+{"_e":"metro:server_log","_t":1790546749936,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790546750040,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790547734874,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790547734875,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790548713856,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790548713857,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790549140037,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790549140041,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790551542987,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790551543055,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790552544893,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790552544903,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790553754883,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790553754885,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790554797882,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790554797887,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790555771907,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790555771952,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790556784871,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790556784873,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790557537856,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790557537859,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790558502887,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790558502893,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790559473877,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790559473889,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790560424894,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790560424908,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790561198874,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790561198876,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790562209877,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790562209893,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790563234872,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790563234892,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790564217900,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790564217914,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790564859866,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790564859870,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790565826858,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790565826863,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790566779881,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790566779913,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790567789886,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790567789888,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790568520873,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790568520876,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790569548879,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790569548892,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790570547868,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790570547870,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790571507905,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790571507944,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790572181908,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790572181918,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790573153872,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790573153875,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790574310902,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790574310917,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790575149898,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790575149967,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790575842868,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790575842875,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790576823873,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790576823901,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790577815866,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790577815867,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790578803886,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790578803890,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790579503896,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790579503900,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790580505890,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790580505904,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790581588870,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790581588879,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790582556873,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790582556952,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790583164871,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790583164883,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790584275916,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790584275977,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790585250945,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790585250952,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790586308857,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790586308862,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790586825871,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790586825874,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790587789852,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790587789854,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790588756858,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790588756863,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790589834859,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790589834925,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790590486884,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790590486897,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790591546869,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790591546903,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790592565894,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790592565910,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790593556871,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790593556899,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790594147886,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790594147901,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790595174905,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790595174911,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790596126870,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790596126875,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790597207866,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790597207892,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790598899856,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790598899935,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790599945870,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790599945872,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"metro:server_log","_t":1790600289166,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.Exponent","iPhone 17 Pro","60"]}
+{"_e":"metro:server_log","_t":1790600289175,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_arm64 - 15 - API 35","60"]}
+{"_e":"root:init","_t":1790630401101,"format":"v0-jsonl","version":"57.0.27"}
+{"_e":"env:mode","_t":1790630401102,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1790630401103,"mode":"development","files":["../../../.env"],"env":{"EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY":"pk_test_YW1hemluZy1za3Vuay0zNjU3LmNsZXJrLmFjY291bnRzLmRldiQ"}}
+{"_e":"devserver:start","_t":1790630401394,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../../../src/app","serverComponents":false,"serverActions":false,"serverRendering":true,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1790630401603,"serverRoot":"../../..","projectRoot":"../../..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":true,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"expo:dev-tools-plugin:load","_t":1790630401771,"plugins":[]}
+{"_e":"metro:instantiate","_t":1790630402218,"atlas":false,"workers":7,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1790630466696,"id":"1","platform":"android","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:progress","_t":1790630466697,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790630466703,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790630466802,"id":"1","progress":0.051652892561983466,"total":264,"current":60}
+{"_e":"metro:bundling:progress","_t":1790630466902,"id":"1","progress":0.31575352969931664,"total":646,"current":363}
+{"_e":"metro:bundling:progress","_t":1790630467006,"id":"1","progress":0.47418406309337013,"total":957,"current":659}
+{"_e":"metro:bundling:progress","_t":1790630467106,"id":"1","progress":0.7599890737735207,"total":1201,"current":1047}
+{"_e":"metro:bundling:progress","_t":1790630467206,"id":"1","progress":0.8739234131113424,"total":1550,"current":1449}
+{"_e":"metro:bundling:progress","_t":1790630467306,"id":"1","progress":0.9770518255152933,"total":1733,"current":1713}
+{"_e":"metro:bundling:done","_t":1790630467392,"id":"1","total":1733,"ms":695.047625}
+{"_e":"metro:client_log","_t":1790630469216,"level":"warn","data":["Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview"]}
+{"_e":"metro:client_log","_t":1790630471057,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790630471058,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790630471058,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:bundling:started","_t":1790630490039,"id":"3","platform":"ios","environment":null,"entry":"node_modules/expo-router/entry.js"}
+{"_e":"metro:bundling:progress","_t":1790630490039,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790630490041,"id":"3","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1790630490140,"id":"3","progress":0.2610280991735537,"total":550,"current":281}
+{"_e":"metro:bundling:progress","_t":1790630490240,"id":"3","progress":0.5313502126688939,"total":1092,"current":796}
+{"_e":"metro:bundling:progress","_t":1790630490340,"id":"3","progress":0.7707862386456905,"total":1401,"current":1230}
+{"_e":"metro:bundling:progress","_t":1790630490441,"id":"3","progress":0.998799880096096,"total":1666,"current":1665}
+{"_e":"metro:bundling:progress","_t":1790630490651,"id":"3","progress":0.999,"total":1666,"current":1666}
+{"_e":"metro:bundling:done","_t":1790630490701,"id":"3","total":1666,"ms":661.857708}
+{"_e":"metro:client_log","_t":1790630491412,"level":"warn","data":["Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview"]}
+{"_e":"metro:client_log","_t":1790630492095,"level":"log","data":["userId","user_3JvOzCnPcBNj5Cgn521rpZXyPkE"]}
+{"_e":"metro:client_log","_t":1790630492098,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790630492099,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:client_log","_t":1790630495847,"level":"log","data":["userId","user_3JvOzCnPcBNj5Cgn521rpZXyPkE"]}
+{"_e":"metro:client_log","_t":1790630495847,"level":"log","data":["transactions","[{\"amount\": \"40000.00\", \"category\": \"income\", \"created_at\": \"2026-09-26T00:00:00.000Z\", \"id\": 3, \"title\": \"Second Salary\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}, {\"amount\": \"50000.00\", \"category\": \"income\", \"created_at\": \"2026-09-26T00:00:00.000Z\", \"id\": 1, \"title\": \"Salary\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}, {\"amount\": \"-13000.00\", \"category\": \"expense\", \"created_at\": \"2026-09-26T00:00:00.000Z\", \"id\": 2, \"title\": \"Rent\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}]"]}
+{"_e":"metro:client_log","_t":1790630495848,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:client_log","_t":1790630495872,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790630495875,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790630495875,"level":"log","data":["summary","{\"balance\": 0, \"expense\": 0, \"income\": 0}"]}
+{"_e":"metro:client_log","_t":1790630496241,"level":"log","data":["userId","user_3JvOzCnPcBNj5Cgn521rpZXyPkE"]}
+{"_e":"metro:client_log","_t":1790630496241,"level":"log","data":["transactions","[{\"amount\": \"40000.00\", \"category\": \"income\", \"created_at\": \"2026-09-26T00:00:00.000Z\", \"id\": 3, \"title\": \"Second Salary\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}, {\"amount\": \"50000.00\", \"category\": \"income\", \"created_at\": \"2026-09-26T00:00:00.000Z\", \"id\": 1, \"title\": \"Salary\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}, {\"amount\": \"-13000.00\", \"category\": \"expense\", \"created_at\": \"2026-09-26T00:00:00.000Z\", \"id\": 2, \"title\": \"Rent\", \"user_id\": \"user_3JvOzCnPcBNj5Cgn521rpZXyPkE\"}]"]}
+{"_e":"metro:client_log","_t":1790630496242,"level":"log","data":["summary","{\"balance\": \"77000.00\", \"expenses\": \"-13000.00\", \"income\": \"90000.00\"}"]}
+{"_e":"metro:client_log","_t":1790630496255,"level":"log","data":["userId","user_3JvcuyaIzjKH13XiTy2Sspcq7M0"]}
+{"_e":"metro:client_log","_t":1790630496255,"level":"log","data":["transactions","[]"]}
+{"_e":"metro:client_log","_t":1790630496258,"level":"log","data":["summary","{\"balance\": \"0\", \"expenses\": \"0\", \"income\": \"0\"}"]}
