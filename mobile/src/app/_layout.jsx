@@ -1,7 +1,7 @@
 import { ClerkProvider } from "@clerk/expo";
 import { Slot } from "expo-router";
 import SafeScreen from "../../components/SafeScreen.jsx";
-import { tokenCache } from "@clerk/clerk-expo/token-cache";
+import { tokenCache } from "@clerk/expo/token-cache";
 
 const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY;
 
@@ -18,3 +18,4 @@ export default function RootLayout() {
     </ClerkProvider>
   );
 }
+
