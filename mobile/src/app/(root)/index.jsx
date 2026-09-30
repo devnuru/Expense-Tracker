@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   View,
   RefreshControl,
+  Alert,
 } from "react-native";
 import { SignOutButton } from "../../../components/SignOutButton";
 import { useEffect, useState } from "react";
